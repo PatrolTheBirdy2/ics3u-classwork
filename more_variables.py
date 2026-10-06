@@ -1,6 +1,8 @@
 store = "No Frills"
 item = "Apples"
-price = 0.5
+# Price of apples has been decreased from $0.5 to $0.4.
+price = 0.4
+# Quantity of apples has been increased from 7 to 67.
 quantity = 67
 # I have added rounding functions to round the prices to 2 decimal places like they would at stores.
 subtotal = round(price * quantity, 2)
