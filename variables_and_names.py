@@ -1,3 +1,6 @@
+# 2. The original code has 2 empty lines in it to seperate different blocks of code with the same functions. For example, the section assignging variables is in one group, the section performing calculations is in another group, and the section printing the data is in a group too.
+# 4. games_remaining = total_season_games - games_played must be correct because it is logically correct for the code to work or be applied to this situation. total_season_games must be greater than or equal to games_played, thus the subtraction must yield a number greater than or equal to 0.
+
 # "Toronto Blue Jays" is being stored in "team".
 team = "Toronto Blue Jays"
 # "July 18, 2021" is being stored in "current_date".
