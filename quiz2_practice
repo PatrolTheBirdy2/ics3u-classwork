@@ -1,0 +1,9 @@
+name = input("What is your name? ")
+print(f"Greetings {name}!")
+print(f"Your name starts with {name[0]} and ends with {name[-1]}.")
+print()
+cost = float(input("What is the cost of an apple? "))
+print(f"Your total is ${round(cost * 1.13, 2)}, tax included.")
+word = input("Give me a word so I can trim the first and last letters off. ")
+trimmed_word = word[1:-1]
+print(f"Your trimmed word is {trimmed_word}.")
