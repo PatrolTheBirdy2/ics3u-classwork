@@ -1,3 +1,4 @@
+# Version 1
 name = input("What is your name? ")
 print(f"Greetings {name}!")
 print(f"Your name starts with {name[0]} and ends with {name[-1]}.")
@@ -7,3 +8,16 @@ print(f"Your total is ${round(cost * 1.13, 2)}, tax included.")
 word = input("Give me a word so I can trim the first and last letters off. ")
 trimmed_word = word[1:-1]
 print(f"Your trimmed word is {trimmed_word}.")
+
+# Version 2
+name = input("What is your name? ")
+print(f"Greetings {name}!")
+print(f"Your name starts with {name[0]}, and ends with {name[-1]}.")
+print()
+apple_cost = int(input("What is the cost of an apple? "))
+apple_amount = int(input("How many apples are you purchasing? "))
+total_cost = round(apple_cost * apple_amount * 1.13, 2)
+print(f"The total cost for {apple_amount} will be ${total_cost}, tax included.")
+print()
+long_word = input("Give me a super long word! ")
+print(f"That word, without first and last letters, would be {long_word[1:-1]}.")
