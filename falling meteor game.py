@@ -11,7 +11,7 @@ score = 0
 
 while True:
     if fall_x == x and fall_y == y:
-        display.show(Image.SAD)
+        display.show(Image.SAD, delay = 80)
         display.scroll("GAME OVER!", delay = 40 )
         display.scroll("Your score is:", delay = 40)
         display.scroll(score)
