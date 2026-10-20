@@ -7,11 +7,14 @@ x = 2
 y = 4
 fall_x = random.randint(0,4)
 fall_y = 0
+score = 0
 
 while True:
     if fall_x == x and fall_y == y:
         display.show(Image.SAD)
         display.scroll("GAME OVER!", delay = 40 )
+        display.scroll("Your score is:", delay = 40)
+        display.scroll(score)
         break
         
     frame_count += 1
@@ -20,6 +23,7 @@ while True:
     if fall_y > 4:
         fall_y = 0
         fall_x = random.randint(0,4)
+        score += 1
 
     if button_a.was_pressed() and x>0:
         x -= 1
